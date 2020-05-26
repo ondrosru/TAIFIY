@@ -1,0 +1,7 @@
+2
+3
+3
+mealy
+   s0    s1    s2
+x1 s2|y1 s1|y2 s1|y0
+x2 s1|y0 s0|y0 s2|y1

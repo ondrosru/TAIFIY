@@ -1,0 +1,23 @@
+digraph G {
+Y0;
+Y1;
+Y2;
+Y3;
+Y4;
+Y5;
+Y6;
+Y1 -> Y0 [label="x1,y1"];
+Y5 -> Y0 [label="x1,y1"];
+Y2 -> Y0 [label="x2,y1"];
+Y0 -> Y1 [label="x1,y1"];
+Y4 -> Y1 [label="x1,y1"];
+Y6 -> Y1 [label="x2,y1"];
+Y2 -> Y2 [label="x1,y0"];
+Y1 -> Y2 [label="x2,y0"];
+Y0 -> Y3 [label="x2,y0"];
+Y3 -> Y3 [label="x2,y0"];
+Y4 -> Y3 [label="x2,y0"];
+Y3 -> Y4 [label="x1,y1"];
+Y6 -> Y5 [label="x1,y0"];
+Y5 -> Y5 [label="x2,y0"];
+}

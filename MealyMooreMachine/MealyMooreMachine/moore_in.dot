@@ -1,0 +1,23 @@
+digraph G {
+q0_y1;
+q3_y1;
+q1_y0;
+q2_y0;
+q4_y1;
+q5_y0;
+q6_y1;
+q0_y1 -> q3_y1 [label="x1"];
+q1_y0 -> q1_y0 [label="x1"];
+q2_y0 -> q4_y1 [label="x1"];
+q3_y1 -> q0_y1 [label="x1"];
+q4_y1 -> q3_y1 [label="x1"];
+q5_y0 -> q0_y1 [label="x1"];
+q6_y1 -> q5_y0 [label="x1"];
+q0_y1 -> q2_y0 [label="x2"];
+q1_y0 -> q0_y1 [label="x2"];
+q2_y0 -> q2_y0 [label="x2"];
+q3_y1 -> q1_y0 [label="x2"];
+q4_y1 -> q2_y0 [label="x2"];
+q5_y0 -> q5_y0 [label="x2"];
+q6_y1 -> q3_y1 [label="x2"];
+}
