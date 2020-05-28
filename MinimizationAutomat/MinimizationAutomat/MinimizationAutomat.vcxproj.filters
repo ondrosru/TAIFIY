@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Automat">
+      <UniqueIdentifier>{4d7f14db-bfe6-4624-912f-9674484f7909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Automat\CAutomatMealy">
+      <UniqueIdentifier>{11e20e8b-92d6-411b-989d-b8df073516e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Automat\CAutomatMoore">
+      <UniqueIdentifier>{14bd8b27-523d-41d3-81d1-4a4090d49526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CAutomatController">
+      <UniqueIdentifier>{33707413-57ea-4d3b-a21f-c5ceec3ddeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Minimization">
+      <UniqueIdentifier>{190055ef-cdc8-4470-b97c-4bd475206476}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutomatMealy.h">
+      <Filter>Исходные файлы\Automat\CAutomatMealy</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutomatMoore.h">
+      <Filter>Исходные файлы\Automat\CAutomatMoore</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutomatController.h">
+      <Filter>Исходные файлы\CAutomatController</Filter>
+    </ClInclude>
+    <ClInclude Include="AutomatHeader.h">
+      <Filter>Исходные файлы\Automat</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimization.h">
+      <Filter>Исходные файлы\Minimization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutomatMealy.cpp">
+      <Filter>Исходные файлы\Automat\CAutomatMealy</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutomatMoore.cpp">
+      <Filter>Исходные файлы\Automat\CAutomatMoore</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutomatController.cpp">
+      <Filter>Исходные файлы\CAutomatController</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimization.cpp">
+      <Filter>Исходные файлы\Minimization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input_mealy.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="input_moore.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
