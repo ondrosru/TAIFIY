@@ -24,6 +24,9 @@ void CAutomatController::Run() {
 	{
 		CAutomatMoore moore = ReadMoore( amountState, amountInputSignal );
 		moore.Save( SaveInputMooreFile, MOORE_SAVE_FORMAT );
+		Minimization minimization = Minimization();
+		moore = minimization.MinimizeMoore( moore );
+		moore.Save( SaveOutputMooreFile, MOORE_SAVE_FORMAT );
 	}
 }
 

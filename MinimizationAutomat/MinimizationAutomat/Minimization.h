@@ -15,7 +15,10 @@ public:
 	CAutomatMealy MinimizeMealy( CAutomatMealy& mealy );
 private:
 	DoubelVectorString GettingGroupStatesMealy( CAutomatMealy& mealy );
+	DoubelVectorString GettingGroupStatesMoore( CAutomatMoore& moore );
 	DoubelVectorString MinimizeMealyRecursion( CAutomatMealy& mealy, DoubelVectorString& groupStates );
+	DoubelVectorString MinimizeMooreRecursion( CAutomatMoore& moore, DoubelVectorString& groupStates );
 	CAutomatMealy CreateMealy( CAutomatMealy& mealy, DoubelVectorString& groupStates );
+	CAutomatMoore CreateMoore( CAutomatMoore& moore, DoubelVectorString& groupStates );
 };
 
