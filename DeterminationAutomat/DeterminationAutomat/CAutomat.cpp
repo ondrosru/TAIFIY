@@ -116,11 +116,7 @@ void CAutomat::Determine() {
 		for ( size_t j = 0; j < inputSignals.size(); j++ )
 		{
 			std::vector<Transition> foundTransitions = GetTransitions( newStates[i], inputSignals[j] );
-			if ( foundTransitions.empty() )
-			{
-				newTransitions.push_back( { newStates[i], newStates[i], inputSignals[j]} );
-			}
-			else
+			if (!foundTransitions.empty())
 			{
 				std::vector<State> transitionsNextStates;
 				for ( Transition transition : foundTransitions )
